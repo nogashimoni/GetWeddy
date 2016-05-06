@@ -1,0 +1,15 @@
+.dateInput input {
+    font-size: 72px;
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+    maxlength: "1";
+    font-size: 72px;
+    border-color: transparent;
+    border: none;
+}
+
+.submit {
+    color: white;
+    font-size: 48px;
+}
