@@ -1,15 +1,16 @@
 .dateInput input {
     font-size: 72px;
-    color: black;
-    background-color: transparent;
-    border-color: transparent;
-    maxlength: "1";
+    color: white;
+    background-color: rgba(130,226,188,0.5);
+    /*opacity: 50;*/
+    /*border-color: transparent;*/
+    maxlength: "2";
     font-size: 72px;
-    border-color: transparent;
-    border: none;
+    border-style: none;
+    text-align: center;
 }
 
 .submit {
     color: white;
-    font-size: 48px;
+    font-size: 24px;
 }
