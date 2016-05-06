@@ -20,7 +20,7 @@ var app = express();
 app.use(bodyParser.json());
 
 // connect to db
-mongoose.connect('mongodb://localhost/some_database');
+mongoose.connect('mongodb://10.10.20.188/some_database');
 
 app.get('/', function (req, res) {
     res.send('Hello Get Weddy!')
