@@ -1,11 +1,21 @@
-var express = require('express')
+var express = require('express');
 var mongoose = require('mongoose');
-var bodyParser = require('body-parser')
+var bodyParser = require('body-parser');
 var Supplier = require('./models/Supplier');
 
 
+var options = {
+    root: __dirname + '/public/',
+    dotfiles: 'deny',
+    headers: {
+        'x-timestamp': Date.now(),
+        'x-sent': true
+    }
+};
+
+
 // create server
-var app = express()
+var app = express();
 
 app.use(bodyParser.json());
 
@@ -13,12 +23,17 @@ app.use(bodyParser.json());
 mongoose.connect('mongodb://localhost/some_database');
 
 app.get('/', function (req, res) {
-    res.send('Hello Noga')
-})
+    res.send('Hello Get Weddy!')
+});
 
 app.get('/shalom', function (req, res) {
   res.send('Hello World')
-})
+});
+
+app.get('/temp', function (req, res)
+{
+    res.sendFile('temp.html', options);
+});
 
 app.get('/suppliers', function(req, res) {
     Supplier.find({}, function (err, docs) {
