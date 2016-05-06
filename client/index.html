@@ -39,12 +39,13 @@
         <h1>?אז מתי החתונה</h1>
         <span>
             <form class="dateInput" action="demo_form.asp">
-                <input type="text" name="day" size="2" maxlength="2" autofocus="autofocus">
+                <input type="text" name="day" size="2" maxlength="2" autofocus="autofocus" id = dayDate>
                 <img src="img/slash.png"/>
-                <input type="text" name="month" size="2" maxlength="2">
+                <input type="text" name="month" size="2" maxlength="2" id = monthDate>
                 <img src="img/slash.png"/>
-                <input type="text" name="year" size="2" maxlength="2">
-                <input type="submit" value="מצא">
+                <input type="text" name="year" size="2" maxlength="2" id = yearDate>
+                <br>
+                <input type="submit" value="מצא" onclick="saveAndShift ()">
             </form>
         </span>
         <h2>בנו פרופיל התאמה</h2>
@@ -66,6 +67,15 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script src="js/dateDetails.js"></script>
+
+    <script>
+        function saveAndShift (){
+            saveDate()
+        }
+
+    </script>
 
 </body>
 
