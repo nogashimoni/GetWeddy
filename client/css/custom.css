@@ -33,6 +33,31 @@ h2 {
     margin: 50px;
 }
 
+.categories {
+    background-color: #82e2bc;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#dateImg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#catList {
+    font-size: 0;
+    width: 380px;
+    margin: 0 auto;
+    float: right;
+    }
+ #catList img {
+     margin: 2px;
+
+ }
+
 @font-face {
     font-family: 'Alef';
     src: url('../fonts/Alef-Bold.eot');
