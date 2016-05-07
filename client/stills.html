@@ -3,29 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>GetWeddy - Stills Photographers</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/jquery.js"></script>
     <link href="css/custom.css" rel="stylesheet">
 </head>
-
-<body class="stills">
+<body class="stills" id="no_scroll">
     <div id="dateHeader">
          <span id = dateSpan>
              <img id="dateImgTop" src="img/26.8s.png"/>
              <h2 class="suppliersTitle">הצלמים שהכי מתאימים לכם</h2>
          </span>
     </div>
-
-    <div ng-app="app" ng-controller="httpCtrl">
-        <table style="width:100%">
-            <tr ng-repeat="supplier in allSuppliers">
-                <td></td>
-                <td>{{supplier.name}}</td>
-            </tr>
-        </table>
+    <div class="iframeHolder">
+        <iframe src="stillsTable.html" scrolling="yes" height="300px"></iframe>
     </div>
 
-    <script src="js/http.js"></script>
-
+    <script type="application/javascript">
+        $(document).ready(function(){
+            $(".iframeHolder,iframe").css("height",  $(document).height());
+        })
+    </script>
 </body>
 
 </html>
