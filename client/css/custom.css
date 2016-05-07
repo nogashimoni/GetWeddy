@@ -62,14 +62,23 @@ h2 {
 
 .imagesContainer {
     background-color: #82e2bc;
-    margin: 50px;
+    margin: 25px;
 }
 
 .imageAnswer {
     border-width: 3px;
-    border-color: #ffa188;
+    opacity: 1.0;
+    filter: alpha(opacity=0); /* For IE8 and earlier */
     margin: 5px 12px 5px 12px;
 }
+
+.imageAnswer:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}.imageAnswer:hover {
+     opacity: 0.4;
+     filter: alpha(opacity=40); /* For IE8 and earlier */
+ }
 
 .supLink {
     font-family: Alef;
