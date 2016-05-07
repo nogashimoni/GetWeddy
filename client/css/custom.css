@@ -37,6 +37,40 @@ h2 {
     margin: 50px;
 }
 
+#quizTitle {
+    font-family: Alef;
+    font-size: 100px;
+    color: #ffa188;
+    text-align: right;
+    margin: 25px;
+}
+
+#quizSecTitle {
+    font-family: Alef;
+    font-size: 50px;
+    color: #82e2bc;
+    text-align: right;
+    margin: 25px;
+}
+
+.quizInstr {
+    font-family: Alef;
+    font-size: 50px;
+    color: midnightblue;
+    text-align: right;
+}
+
+.imagesContainer {
+    background-color: #82e2bc;
+    margin: 50px;
+}
+
+.imageAnswer {
+    border-width: 3px;
+    border-color: #ffa188;
+    margin: 5px 12px 5px 12px;
+}
+
 .supLink {
     font-family: Alef;
     color: white;
