@@ -9,8 +9,9 @@
 
 <body>
 <div style="height:420px;overflow:auto;">
-    <table ng-app="app" ng-controller="httpCtrl">
-        <tr ng-repeat="supplier in allSuppliers">
+    <table ng-app="app" ng-controller="httpCtrl" >
+           <!--ng-init="getServerData">-->
+        <tr ng-repeat="supplier in freeSuppliers">
             <td class="name"><a class="supLink" href="#">{{supplier.name}}</a></td>
             <td class="ind">{{ $index + 1 }}</td>
         </tr>
@@ -18,6 +19,7 @@
 </div>
 
 <script src="js/http.js"></script>
+<script src="js/savedata.js"></script>
 
 </body>
 
