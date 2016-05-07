@@ -11,15 +11,17 @@
     <div id="dateHeader">
          <span>
              <img id="dateImgTop" src="img/26.8s.png"/>
-             <h2 class="suppliersTitle">הצלמים שהכי מתאימים לכם</h2>
+             <div>
+                 <h2 class="suppliersTitle">הצלמים שהכי מתאימים לכם</h2>
+             </div>
          </span>
     </div>
 
     <div ng-app="app" ng-controller="httpCtrl">
         <table style="width:50%">
             <tr ng-repeat="supplier in allSuppliers">
+                <td></td>
                 <td>{{supplier.name}}</td>
-                <td>{{supplier.role}}</td>
             </tr>
         </table>
     </div>

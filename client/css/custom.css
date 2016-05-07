@@ -39,6 +39,8 @@ h2 {
     color: white;
     margin: 10px;
     float: right;
+    position: relative;
+    bottom: 50;
 }
 
 /* Categories page */
