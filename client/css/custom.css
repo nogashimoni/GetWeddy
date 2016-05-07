@@ -33,6 +33,15 @@ h2 {
     margin: 50px;
 }
 
+.suppliersTitle {
+    font-family: Alef;
+    font-size: 50px;
+    color: white;
+    margin: 10px;
+    float: right;
+}
+
+/* Categories page */
 .categories {
     background-color: #82e2bc;
     -webkit-background-size: cover;
@@ -41,10 +50,24 @@ h2 {
     -o-background-size: cover;
 }
 
-#dateImg {
+#dateImgBottom {
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+#dateImgTop {
+    /*position: absolute;*/
+    Top: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#dateHeader {
+    border-bottom: 2px solid white;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 #catList {
@@ -55,8 +78,16 @@ h2 {
     }
  #catList img {
      margin: 2px;
-
  }
+
+ /* Still-Photographers page */
+.stills {
+    background-color: #ffa188;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 
 @font-face {
     font-family: 'Alef';
