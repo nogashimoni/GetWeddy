@@ -21,10 +21,6 @@ input[type=submit] {
     font-size: 36px;
 }
 
-#no_scroll {
-    overflow: hidden;
-}
-
 h1 {
     font-family: Alef;
     font-size: 100px;
@@ -53,7 +49,7 @@ h2 {
     margin: 10px;
     float: right;
     position: relative;
-    bottom: 50pt;
+    bottom: 50;
 }
 
 iframe {
