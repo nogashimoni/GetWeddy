@@ -40,7 +40,7 @@ h2 {
     margin: 10px;
     float: right;
     position: relative;
-    bottom: 50;
+    bottom: 50pt;
 }
 
 /* Categories page */
@@ -50,6 +50,14 @@ h2 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+table {
+    float: right;
+}
+
+table tr {
+    text-align: right;
 }
 
 #dateImgBottom {

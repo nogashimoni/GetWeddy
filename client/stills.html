@@ -20,8 +20,8 @@
     <div ng-app="app" ng-controller="httpCtrl">
         <table style="width:50%">
             <tr ng-repeat="supplier in allSuppliers">
-                <td></td>
                 <td>{{supplier.name}}</td>
+                <td>{{ $index + 1 }}</td>
             </tr>
         </table>
     </div>
