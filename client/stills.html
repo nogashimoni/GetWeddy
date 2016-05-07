@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>GetWeddy - Stills Photographers</title>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <script src="js/jquery.js"></script>
     <link href="css/custom.css" rel="stylesheet">
 </head>
-
-<body class="stills">
+<body class="stills" id="no_scroll">
     <div id="dateHeader">
          <span>
              <img id="dateImgTop" src="img/26.8s.png"/>
@@ -16,12 +15,14 @@
              </div>
          </span>
     </div>
-
-    <iframe src="stillsTable.html">
-        Does this text show in browsr?
-    </iframe>
-
-
+    <div class="iframeHolder">
+        <iframe src="stillsTable.html" scrolling="yes" height="300px"></iframe>
+    </div>
+    <script type="application/javascript">
+        $(document).ready(function(){
+            $(".iframeHolder,iframe").css("height",  $(document).height());
+        })
+    </script>
 </body>
 
 </html>

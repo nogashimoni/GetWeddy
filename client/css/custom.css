@@ -21,6 +21,10 @@ input[type=submit] {
     font-size: 36px;
 }
 
+#no_scroll {
+    overflow: hidden;
+}
+
 h1 {
     font-family: Alef;
     font-size: 100px;
@@ -33,6 +37,10 @@ h2 {
     margin: 50px;
 }
 
+.iframeHolder {
+    position: relative;
+}
+
 .suppliersTitle {
     font-family: Alef;
     font-size: 50px;
@@ -43,6 +51,15 @@ h2 {
     bottom: 50pt;
 }
 
+iframe {
+    padding: 0;
+    height: 131px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+}
+
 /* Categories page */
 .categories {
     background-color: #82e2bc;
@@ -50,14 +67,6 @@ h2 {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-iframe {
-    height: 100%;
-    width: 70%;
-    /*border-style: none;*/
-    float: right;
-    vertical-align: top;
 }
 
 table {
@@ -80,6 +89,8 @@ table tr {
     text-align: center;
 }
 
+
+.clear {clear:both;}
 #dateImgBottom {
     position: absolute;
     bottom: 0;
