@@ -53,7 +53,7 @@ h2 {
 }
 
 table {
-    float: right;
+    alignment: right;
 }
 
 table tr {
