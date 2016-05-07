@@ -15,7 +15,7 @@
          </span>
     </div>
 
-    <div ng-app="app" ng-controller="httpCtrl">
+    <div ng-app="app" ng-controller="httpCtrl" ng-init="getServerData()">
         <table style="width:50%">
             <tr ng-repeat="supplier in allSuppliers">
                 <td></td>
@@ -25,6 +25,7 @@
     </div>
 
     <script src="js/http.js"></script>
+    <script src="js/savedata.js"></script>
 
 </body>
 

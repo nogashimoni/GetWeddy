@@ -39,12 +39,12 @@
         <h1>?אז מתי החתונה</h1>
         <span>
             <form class="dateInput" action="categories.html">
-                <input type="text" name="day" size="2" maxlength="2" autofocus="autofocus">
+                <input id="day" type="text" name="day" size="2" maxlength="2" autofocus="autofocus">
                 <img src="img/slash.png"/>
-                <input type="text" name="month" size="2" maxlength="2">
+                <input id="month" type="text" name="month" size="2" maxlength="2">
                 <img src="img/slash.png"/>
-                <input type="text" name="year" size="2" maxlength="2">
-                <br><input type="submit" value="מצא">
+                <input id="year" type="text" name="year" size="2" maxlength="2">
+                <br><input type="submit" onclick="submitDateListener()" value="מצא">
             </form>
         </span>
         <div>
@@ -68,6 +68,8 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/grayscale.js"></script>
+
+    <script src="js/savedata.js"></script>
 
 </body>
 
