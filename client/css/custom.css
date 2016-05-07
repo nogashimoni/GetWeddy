@@ -37,6 +37,11 @@ h2 {
     margin: 50px;
 }
 
+.supLink {
+    font-family: Alef;
+    color: white;
+}
+
 .iframeHolder {
     position: relative;
 }
@@ -58,6 +63,7 @@ iframe {
     position: absolute;
     width: 100%;
     min-height: 100%;
+    border-width: 0px;
 }
 
 /* Categories page */
