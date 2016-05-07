@@ -53,15 +53,17 @@ h2 {
 }
 
 iframe {
-    height: auto;
-    width: 350px;
-    /*border-right: solid white 3px;*/
+    height: 100%;
+    width: 70%;
+    /*border-style: none;*/
     float: right;
+    vertical-align: top;
 }
 
 table {
     width: 50%;
     margin: 0 auto;
+    float: right;
 }
 
 table tr {
