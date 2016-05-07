@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1 align="right">HI!</h1>
+
+<div>
+    <table ng-app="app" ng-controller="httpCtrl">
+        <tr ng-repeat="supplier in allSuppliers">
+            <td class="name">{{supplier.name}}</td>
+            <td class="ind">{{ $index + 1 }}</td>
+        </tr>
+    </table>
+</div>
+
+<script src="js/http.js"></script>
+
+</body>
+
+
+</html>

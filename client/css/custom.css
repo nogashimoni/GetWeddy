@@ -52,16 +52,30 @@ h2 {
     -o-background-size: cover;
 }
 
+iframe {
+    height: auto;
+    width: 350px;
+    /*border-right: solid white 3px;*/
+    float: right;
+}
+
 table {
     width: 50%;
-    align: right;
+    margin: 0 auto;
 }
 
 table tr {
-    text-align: right;
     font-family: Alef;
     font-size: 24px;
     color: white;
+}
+
+.name {
+    text-align: right;
+}
+
+.ind {
+    text-align: center;
 }
 
 #dateImgBottom {
