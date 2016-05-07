@@ -53,11 +53,14 @@ h2 {
 }
 
 table {
-    alignment: right;
+    align: right;
 }
 
 table tr {
     text-align: right;
+    font-family: Alef;
+    font-size: 24px;
+    color: white;
 }
 
 #dateImgBottom {
