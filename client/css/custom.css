@@ -109,6 +109,116 @@ iframe {
     border-width: 0px;
 }
 
+.profileTitle {
+    font-family: Alef;
+    font-size: 90px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    position: relative;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.secProfileTitle {
+    font-family: Alef;
+    font-size: 50px;
+    color: #ffa188;
+    margin: 10px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    top: 150px;
+}
+
+.para {
+    font-family: Alef;
+    font-size: 17px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    line-grid-mode: 200px;
+    position: absolute;
+    text-align: right;
+    right: 60px;
+    top: 220px;
+}
+
+.para2 {
+    font-family: Alef;
+    font-size: 17px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    line-grid-mode: 200px;
+    position: absolute;
+    text-align: right;
+    right: 60px;
+    top: 300px;
+}
+
+.para3 {
+    font-family: Alef;
+    font-size: 17px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    line-grid-mode: 200px;
+    position: absolute;
+    text-align: right;
+    right: 60px;
+    top: 380px;
+}
+
+.supplierSite {
+    font-family: Alef;
+    font-size: 20px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    top: 460px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.supplierMail {
+    font-family: Alef;
+    font-size: 20px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    top: 490px;
+}
+
+.supplierPhone {
+    font-family: Alef;
+    font-size: 20px;
+    color: #82e2bc;
+    margin: 10px;
+    float: right;
+    position: absolute;
+    right: 60px;
+    top: 520px;
+}
+
 /* Categories page */
 .categories {
     background-color: #82e2bc;
@@ -140,6 +250,24 @@ table tr {
 
 
 .clear {clear:both;}
+
+.faceImg {
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.likeImg {
+    position: absolute;
+    padding-left: 350px;
+    padding-top: 40px;
+}
+
+.scedImg {
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
 #dateImgBottom {
     position: absolute;
     bottom: 0;
@@ -160,6 +288,13 @@ table tr {
     margin: 0;
 }
 
+#faceImg {
+    position: absolute;
+    Top: 0;
+    left: 0;
+    padding-left: 100px;
+}
+
 #catList {
     font-size: 0;
     width: 380px;
@@ -177,6 +312,19 @@ table tr {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.profile {
+    background-color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+table, td, th {
+    text-align: right;
+    color: white;
 }
 
 @font-face {
