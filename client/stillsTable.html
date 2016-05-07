@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link href="css/custom.css" rel="stylesheet">
+    <base target="_blank" />
+</head>
+
+<body>
+<div style="height:420px;overflow:auto;">
+    <table ng-app="app" ng-controller="httpCtrl">
+        <tr ng-repeat="supplier in allSuppliers">
+            <td class="name"><a class="supLink" href="#">{{supplier.name}}</a></td>
+            <td class="ind">{{ $index + 1 }}</td>
+        </tr>
+    </table>
+</div>
+
+<script src="js/http.js"></script>
+
+</body>
+
+
+</html>
