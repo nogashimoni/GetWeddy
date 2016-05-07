@@ -70,6 +70,8 @@ h2 {
     opacity: 1.0;
     filter: alpha(opacity=0); /* For IE8 and earlier */
     margin: 5px 12px 5px 12px;
+    height: 200px;
+    width: 350px;
 }
 
 .imageAnswer:hover {
@@ -258,7 +260,7 @@ table tr {
 
 .likeImg {
     position: absolute;
-    padding-left: 350px;
+    padding-left: 250px;
     padding-top: 40px;
 }
 
